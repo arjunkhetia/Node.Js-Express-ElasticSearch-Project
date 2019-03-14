@@ -4,7 +4,7 @@ var async = require('async');
 var db = require('../dbconfig');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', async function(req, res, next) {
   // var mydata = await db.ping();
   // var mydata = await db.createindex('elasticindex');
   // var mydata = await db.checkindex('elasticindex');
